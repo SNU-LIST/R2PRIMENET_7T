@@ -19,6 +19,6 @@ The input file must be a `.mat` file, which should contain:
 ## License
 
 © Jiye Kim  
-Seoul National University
+@ LIST, Seoul National University
 
 This code and network parameters are made available for academic and research purposes. Please credit the original author when utilizing this work.
