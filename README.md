@@ -12,11 +12,9 @@ To run inference, execute `test.py`.
 
 ### Input File
 
-make an 'Data' folder and put input files in it.
-
 The input file must be a `.mat` file, which should contain:
 - `r2star` (in Hz, at 7T)
-- `Mask`
+- `Mask` (brain mask)
 
 ## License
 
