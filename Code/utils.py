@@ -84,13 +84,13 @@ class test_dataset():
         ### Converting Hz maps to ppm ###
         Dr = 114
 
-        r2star_7T = data_file['r2star_7T']
+        r2star_7T = data_file['r2star']
         r2star_7T[r2star_7T<0]=0
         
         
         r2star_7T_in_ppm = r2star_7T / Dr
         
-        self.mask = data_file['mask_sharp_12']
+        self.mask = data_file['Mask']
         self.r2star_7T = r2star_7T_in_ppm
         
         
